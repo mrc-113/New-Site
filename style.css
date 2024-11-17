@@ -1,0 +1,48 @@
+body {
+    .Rectangle{position:absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 2000px; height: 3700px; background: white; z-index: -1;}
+    font-family: Bahnschrift, Times, serif;
+    font-size: 22px;
+    background-color: #083f88;
+    color: #000000;
+
+    
+}
+h1 {
+    color: #083f88;
+    font-size: 48px;
+    font-family: Bahnschrift, Times, serif;
+
+    animation: color-change 3s infinite;
+}
+
+h2 {
+    color: #083f88;
+    font-size: 28px;
+    font-family: Bahnschrift, Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+@keyframes color-change {
+    0% {
+      color: #083f88;
+    }
+  
+    33% {
+      color: rgb(9, 46, 126);
+    }
+  
+    66% {
+      color: #000000;
+    }
+
+    100% {
+      color: rgb(9, 46, 126);
+    }
+}
+
+
